@@ -1,3 +1,11 @@
 {
+    "owner": ["6287811078485@s.whatsapp.net"],
+    "multi": true,
+    "nopref": false,
+    "single": false,
+    "public": false,
+    "prefa": "#",
+    "shape": "🤡",
+    "fake": "TeamProviderXploit",
     "session": "team-provider.json"
 }

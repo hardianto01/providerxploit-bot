@@ -38,7 +38,6 @@ fs.existsSync('./'+config.session) && tprovider.loadAuthInfo('./'+config.session
     
     })
     tprovider.on("chat-update", async (tpx) => {
-        tpx = simple.smsg(tprovider, tpx)
         require("./ruangAdmin/handler")(tprovider, tpx)
     })
     
