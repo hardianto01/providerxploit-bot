@@ -1,0 +1,29 @@
+{
+  "name": "providerxploit",
+  "version": "1.0.0",
+  "description": "whatsapp-bot",
+  "main": "core.ts",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardiantojek93/providerXploit.git"
+  },
+  "keywords": [
+    "whatsapp-bot"
+  ],
+  "author": "team-provider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hardiantojek93/providerXploit/issues"
+  },
+  "homepage": "https://github.com/hardiantojek93/providerXploit#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.1",
+    "awesome-phonenumber": "^2.55.0",
+    "figlet": "^1.5.0",
+    "node-fetch": "^2.6.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
