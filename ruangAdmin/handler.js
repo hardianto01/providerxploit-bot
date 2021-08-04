@@ -1,5 +1,4 @@
 ///// REQUIRE /////
-
 const {
     MessageType
   } = require('@adiwajshing/baileys')

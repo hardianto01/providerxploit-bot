@@ -1,5 +1,5 @@
 {
-    "owner": "6287811078485@s.whatsapp.net",
+    "owner": ["6287811078485@s.whatsapp.net"],
     "multi": true,
     "nopref": false,
     "single": false,
