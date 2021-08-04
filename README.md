@@ -9,7 +9,7 @@
 
 - 👀 I'm currently focusing on **JavaScript**.
 
-- 📝 I'm currently working on [`PROVIDER-BOT`](https://hardianto-chan.herokuapp.com/) 
+- 📝 I'm currently working on [`providerxploit-bot`](https://hardianto-chan.herokuapp.com/) 
 
 <p align="center">
   <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
