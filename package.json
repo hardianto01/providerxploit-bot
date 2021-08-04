@@ -22,7 +22,9 @@
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.1",
     "awesome-phonenumber": "^2.55.0",
+    "axios": "^0.21.1",
     "figlet": "^1.5.0",
+    "moment-timezone": "^0.5.33",
     "node-fetch": "^2.6.1",
     "qrcode-terminal": "^0.12.0"
   }
