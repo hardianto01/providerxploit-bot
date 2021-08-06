@@ -45,10 +45,10 @@ fs.existsSync('./'+config.session) && tprovider.loadAuthInfo('./'+config.session
         require("./ruangAdmin/handler")(tprovider, tpx, welcome)
               })
     tprovider.on('group-participants-update', async (tpx) => {
-            require('./ruangAdmin/chats-function/welcome')(tpx, welcome)
+            require('./ruangAdmin/chats-function/welcome')(tprovider, tpx, welcome)
               })
     tprovider.on('group-update', async (tpx) => {
-            require('./ruangAdmin/chats-function/group-detect')(tpx, welcome)
+            require('./ruangAdmin/chats-function/group-detect')(tprovider, tpx, welcome)
               })
     
 starting()
