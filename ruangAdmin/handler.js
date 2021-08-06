@@ -27,7 +27,7 @@ const {
               
   ///// CONNECTION /////
   
-  module.exports = async (tprovider, tpx) => {
+  module.exports = async (tprovider, tpx, welcome) => {
       try {
         if (!tpx.hasNewMessage) return
         tpx = tpx.messages.all()[0]
@@ -80,6 +80,7 @@ const {
                   const groupDesc = isGroup ? groupMetadata.desc : ''
                   const itsMe = sender == botNumber ? true : false
                   const isOwner = ownerNumber.includes(sender)
+                  const isWelcome = welcome["welcome"].includes(from)
                   const q = args.join(' ')
             const conts = tpx.key.fromMe ? tprovider.user.jid : tprovider.contacts[sender] || { notify: jid.replace(/@.+/, '') }
             const pushname = tpx.key.fromMe ? tprovider.user.name : conts.notify || conts.vname || conts.name || '-'
