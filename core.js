@@ -10,6 +10,8 @@ const figlet = require("figlet")
 const { color } = require("./lib/warna")
 const config = require("./setting/config.json")
 
+// Locale Db
+const welcome = JSON.parse(fs.readFileSync("./database/enable.json"))
 // mengconnect
 async function starting() {
     tprovider.on('qr', qr => {
@@ -37,8 +39,16 @@ fs.existsSync('./'+config.session) && tprovider.loadAuthInfo('./'+config.session
         }), 'cyan'))
     
     })
+    
+    // okeh
     tprovider.on("chat-update", async (tpx) => {
-        require("./ruangAdmin/handler")(tprovider, tpx)
-    })
+        require("./ruangAdmin/handler")(tprovider, tpx, welcome)
+              })
+    tprovider.on('group-participants-update', async (tpx) => {
+            require('./ruangAdmin/chats-function/welcome')(tpx, welcome)
+              })
+    tprovider.on('group-update', async (tpx) => {
+            require('./ruangAdmin/chats-function/group-detect')(tpx, welcome)
+              })
     
 starting()
