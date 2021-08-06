@@ -47,15 +47,10 @@
   <a name=hendra759&label=VIEWS&style=flat-square&color=orange" />
 
 </p> 
- #sosial media
 
+[`WhatsApp Admin `](https://wa.me/6287811078485)
 
-* [`WhatsApp Admin `](https://wa.me/6287811078485)
-
-* [`anto-api `](https://hardianto-chan.herokuapp.com)
-                                                  
-* [`Website BOT`](https://hardianto-chan.herokuapp.com)
-
+[`Website API`](https://hardianto-chan.herokuapp.com)
 <!--
 **providerxploit/PROVIDER-BOT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
