@@ -1,4 +1,4 @@
-module.exports = async (chats, onwell) => {
+module.exports = async (tprovider, chats, onwell) => {
     if(!onwell["welcome"].includes(chats.jid)) return
     try {
     
