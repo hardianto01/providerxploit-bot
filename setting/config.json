@@ -1,5 +1,5 @@
 {
-    "owner": ["6287811078485@s.whatsapp.net"],
+    "owner": ["628983583288@s.whatsapp.net"],
     "multi": true,
     "nopref": false,
     "single": false,
@@ -7,5 +7,7 @@
     "prefa": "#",
     "shape": "🤡",
     "fake": "TeamProviderXploit",
+    "namebot": "BryanBot",
+    "noOwner": "628983583288",
     "session": "team-provider.json"
 }

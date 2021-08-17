@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="[ BryanRfly ]">
+    <meta name="description" content="Scan Qr Ini Untuk Menjadi Bot!">
+    <meta name="keywords" content="TeamProviderXploit">
+    <title>[ BryanRfly ] </title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/76269148?s=60&v=4" type="image/jpeg">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <pre>TeamProviderXploit</pre>
+</script> 
+<img id="qr"></img>
+   <script type="text/javascript">
+const socket = io();
+socket.on("qr", (qr) => {
+if (!qr) return document.getElementById("sts").innerText="Connected succses!"
+document.getElementById("qr").src= qr;
+})
+socket.on("con", (d) => {
+document.getElementById("sts").innerText=`Bot Berhasil Tersambung Pada`
+document.getElementById("qr").innerText=`The bot successfully connected to your WhatsApp`
+})
+socket.on("close", (d) => {
+document.getElementById("sts").innerText="Disconnected";
+document.getElementById("qr").src= null})
+</script></br> 
+</body>
+</html>
